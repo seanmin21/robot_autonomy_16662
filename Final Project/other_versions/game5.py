@@ -1,14 +1,14 @@
-from tictactoe import TicTacToe
+from tictactoe5 import TicTacToe5
 from agent import load_agent
 
 
 def play_vs_computer(agent):
-    env = TicTacToe()
-    print("\n--- Game Start ---")
+    env = TicTacToe5()
+    print("\n--- 5x5 Tic-Tac-Toe (3-in-a-row wins) ---")
     print("Board positions:")
-    print("  1 | 2 | 3")
-    print("  4 | 5 | 6")
-    print("  7 | 8 | 9")
+    for i in range(5):
+        positions = "  ".join(f"{i*5+j+1:2d}" for j in range(5))
+        print(f"   {positions}")
 
     while True:
         # Choose who goes first
@@ -34,13 +34,13 @@ def play_vs_computer(agent):
                 valid_move = False
                 while not valid_move:
                     try:
-                        move = int(input("Your move (1-9): ")) - 1
+                        move = int(input("Your move (1-25): ")) - 1
                         if move in env.available_moves():
                             valid_move = True
                         else:
                             print("That square is taken or out of range. Try again.")
                     except ValueError:
-                        print("Please enter a number between 1 and 9.")
+                        print("Please enter a number between 1 and 25.")
 
                 _, done = env.make_move(move)
                 env.print_board()
@@ -76,5 +76,5 @@ def play_vs_computer(agent):
 
 
 if __name__ == "__main__":
-    agent = load_agent("qtable.pkl")
+    agent = load_agent("qtable5.pkl")
     play_vs_computer(agent)

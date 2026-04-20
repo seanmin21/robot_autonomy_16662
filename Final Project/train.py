@@ -78,14 +78,59 @@ def minimax_move(state, player):
     return best_action
 
 
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _is_winner(board, p):
+    for i in range(3):
+        if all(board[i*3+j] == p for j in range(3)):
+            return True
+        if all(board[j*3+i] == p for j in range(3)):
+            return True
+    return board[0] == board[4] == board[8] == p or board[2] == board[4] == board[6] == p
+
+
+def winning_moves(board, player):
+    """Return positions where player can win immediately."""
+    hits = []
+    for i, v in enumerate(board):
+        if v != 0:
+            continue
+        board[i] = player
+        if _is_winner(board, player):
+            hits.append(i)
+        board[i] = 0
+    return hits
+
+
+def shaped_reward(state, action, agent_player):
+    """
+    Mid-game reward shaping:
+      +0.5 if this move blocks the opponent's immediate win
+      +0.3 if this move creates our own immediate winning threat
+    """
+    board = list(state)
+    opponent = -agent_player
+
+    # Did we block the opponent's winning move?
+    if action in winning_moves(board, opponent):
+        return 0.5
+
+    # Did we create a winning threat?
+    board[action] = agent_player
+    if winning_moves(board, agent_player):
+        return 0.3
+
+    return 0.0
+
+
 # ── Training ──────────────────────────────────────────────────────────────────
 
-def run_episode(agent, env, agent_player):
+def run_episode(agent, env, agent_player, use_minimax):
     """
     Run one training episode.
     agent_player=1  → agent is X (goes first)
     agent_player=-1 → agent is O (goes second)
-    minimax plays as the other side.
+    Opponent is minimax (use_minimax=True) or random (use_minimax=False).
     """
     env.reset()
     done = False
@@ -102,54 +147,52 @@ def run_episode(agent, env, agent_player):
             next_state = env.get_state()
 
             if done:
-                if reward == 1:
-                    # Agent won
-                    agent.learn(state, action, 1.0, next_state, done)
-                else:
-                    # Draw — agent made the last move
-                    agent.learn(state, action, 0.5, next_state, done)
+                r = 1.0 if reward == 1 else 0.5
+                agent.learn(state, action, r, next_state, done)
             else:
-                # Game continues — neutral update
-                agent.learn(state, action, 0.0, next_state, done)
+                r = shaped_reward(state, action, agent_player)
+                agent.learn(state, action, r, next_state, done)
 
             prev_state = state
             prev_action = action
 
         else:
-            # ── Minimax's turn ───────────────────────────────────────────
-            action = minimax_move(state, env.current_player)
+            # ── Opponent's turn ──────────────────────────────────────────
+            if use_minimax:
+                action = minimax_move(state, env.current_player)
+            else:
+                action = random.choice(env.available_moves())
+
             reward, done = env.make_move(action)
             next_state = env.get_state()
 
             if done and prev_state is not None:
                 if reward == 1:
-                    # Minimax won — penalise agent's last move
                     agent.learn(prev_state, prev_action, -1.0, next_state, done)
                 elif reward == 0.5:
-                    # Draw — minimax made the last move, still reward agent's last move
                     agent.learn(prev_state, prev_action, 0.5, next_state, done)
 
 
-def train(episodes=50000):
+def train(episodes=200000):
     """
-    Train the agent against minimax, alternating sides each episode so it
-    learns to play well as both X (first) and O (second).
+    Train the agent alternating sides each episode.
+    Half the episodes use minimax as the opponent, half use a random opponent.
+    Random opponents expose the agent to board states that minimax never creates,
+    which is critical for playing well against imperfect human moves.
     """
-    print(f"Training for {episodes} episodes against minimax...")
+    print(f"Training for {episodes} episodes (50% vs minimax, 50% vs random)...")
     print("Alternating sides each episode so agent learns as both X and O.\n")
-    agent = QAgent(epsilon=0.3, alpha=0.5, gamma=0.9)
+    agent = QAgent(epsilon=0.4, alpha=0.5, gamma=0.9)
     env = TicTacToe()
 
     for i in range(episodes):
-        # Decay epsilon from 0.3 down to 0.01 over training
-        agent.epsilon = max(0.01, 0.3 * (1 - i / episodes))
-
-        # Alternate: even episodes agent=X, odd episodes agent=O
+        agent.epsilon = max(0.01, 0.4 * (1 - i / episodes))
         agent_player = 1 if i % 2 == 0 else -1
-        run_episode(agent, env, agent_player)
+        use_minimax = (i % 4 < 2)  # alternates: minimax, minimax, random, random, ...
+        run_episode(agent, env, agent_player, use_minimax)
 
-        if i % 10000 == 0:
-            print(f"  Episode {i:>6} | epsilon: {agent.epsilon:.3f} "
+        if i % 50000 == 0:
+            print(f"  Episode {i:>7} | epsilon: {agent.epsilon:.3f} "
                   f"| Q-table states: {len(agent.q_table)}")
 
     print(f"\nTraining complete. Q-table has {len(agent.q_table)} states.")
@@ -198,6 +241,6 @@ def evaluate(agent, n_games=500):
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    trained_agent = train(episodes=50000)
+    trained_agent = train(episodes=200000)
     evaluate(trained_agent, n_games=500)
     save_agent(trained_agent, "qtable.pkl")

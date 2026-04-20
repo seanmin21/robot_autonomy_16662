@@ -5,14 +5,14 @@ import pickle
 
 class QAgent:
     def __init__(self, epsilon=0.3, alpha=0.5, gamma=0.9):
-        self.q_table = {}       # state -> np.array of 9 Q-values
+        self.q_table = {}       # state -> np.array of Q-values (size = board cells)
         self.epsilon = epsilon  # Exploration rate
         self.alpha = alpha      # Learning rate
         self.gamma = gamma      # Discount factor
 
     def get_q_values(self, state):
         if state not in self.q_table:
-            self.q_table[state] = np.zeros(9)
+            self.q_table[state] = np.zeros(len(state))
         return self.q_table[state]
 
     def choose_action(self, state, available_moves):
@@ -21,7 +21,7 @@ class QAgent:
 
         q_values = self.get_q_values(state)
         # Mask illegal moves so they are never chosen greedily
-        masked_q = np.full(9, -np.inf)
+        masked_q = np.full(len(state), -np.inf)
         for move in available_moves:
             masked_q[move] = q_values[move]
         return int(np.argmax(masked_q))

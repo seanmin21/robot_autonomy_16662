@@ -38,11 +38,9 @@ class TicTacToe:
 
     def print_board(self):
         symbols = {0: ".", 1: "X", -1: "O"}
+        ref = ["1 2 3", "4 5 6", "7 8 9"]
         print()
         for i, row in enumerate(self.board):
-            cells = []
-            for j, val in enumerate(row):
-                idx = i * 3 + j
-                cells.append(f"{symbols[val]}({idx})")
-            print("  ".join(cells))
+            cells = " | ".join(symbols[val] for val in row)
+            print(f"  {cells}    {ref[i]}")
         print()

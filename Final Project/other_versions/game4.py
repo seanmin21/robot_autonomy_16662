@@ -1,17 +1,16 @@
-from tictactoe import TicTacToe
+from tictactoe4 import TicTacToe4
 from agent import load_agent
 
 
 def play_vs_computer(agent):
-    env = TicTacToe()
-    print("\n--- Game Start ---")
+    env = TicTacToe4()
+    print("\n--- 4x4 Tic-Tac-Toe (3-in-a-row wins) ---")
     print("Board positions:")
-    print("  1 | 2 | 3")
-    print("  4 | 5 | 6")
-    print("  7 | 8 | 9")
+    for i in range(4):
+        positions = "  ".join(f"{i*4+j+1:2d}" for j in range(4))
+        print(f"   {positions}")
 
     while True:
-        # Choose who goes first
         while True:
             choice = input("\nWho goes first? (p = player, a = agent): ").strip().lower()
             if choice in ("p", "a"):
@@ -30,17 +29,16 @@ def play_vs_computer(agent):
 
         while not done:
             if player_turn:
-                # ── Player's turn ────────────────────────────────────────
                 valid_move = False
                 while not valid_move:
                     try:
-                        move = int(input("Your move (1-9): ")) - 1
+                        move = int(input("Your move (1-16): ")) - 1
                         if move in env.available_moves():
                             valid_move = True
                         else:
                             print("That square is taken or out of range. Try again.")
                     except ValueError:
-                        print("Please enter a number between 1 and 9.")
+                        print("Please enter a number between 1 and 16.")
 
                 _, done = env.make_move(move)
                 env.print_board()
@@ -53,7 +51,6 @@ def play_vs_computer(agent):
                         print("It's a draw!")
                     break
             else:
-                # ── Agent's turn ─────────────────────────────────────────
                 state = env.get_state()
                 action = agent.choose_action(state, env.available_moves())
                 _, done = env.make_move(action)
@@ -76,5 +73,5 @@ def play_vs_computer(agent):
 
 
 if __name__ == "__main__":
-    agent = load_agent("qtable.pkl")
+    agent = load_agent("qtable4.pkl")
     play_vs_computer(agent)
