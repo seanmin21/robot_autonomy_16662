@@ -1,0 +1,453 @@
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 155.5900.
+
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 8. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:39 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:40 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 1.0000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:40 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:41 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 8. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Linesearch objective is not convex
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:42 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 1.1000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 1.1000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.6000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 1. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 1.0000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 3. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.6000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 1.0000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 1.3000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.6000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 1.1000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 1.1000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 7. The simulation is unstable. Time = 0.6000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.8000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 1. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QVEL at DOF 7. The simulation is unstable. Time = 0.9000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QPOS at DOF 7. The simulation is unstable. Time = 0.7000.
+
+Wed Apr 15 20:46:43 2026
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.8000.
+
